@@ -1,0 +1,26 @@
+
+  /* Add these styles to your global styles or component styles */
+.responsive-image {
+    width: 100%; /* Set width to 100% for mobile */
+    height: auto; /* Maintain aspect ratio for mobile */
+  
+    
+  }
+
+  @media (min-width: 576px) {
+    .responsive-image {
+    /* Adjust styles for tablets and larger screens */
+    width: 150px; /* Set a fixed width for desktop */
+    height: auto; /* Maintain aspect ratio for desktop */
+    }
+  }
+
+  @media (min-width: 768px) {
+    .responsive-image {
+    /* Adjust styles for small desktop screens */
+    width: 200px; /* Set a different fixed width for larger desktop screens if needed */
+    height: auto; /* Maintain aspect ratio for larger desktop screens */
+        
+    }
+  }
+  
